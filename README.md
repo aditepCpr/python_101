@@ -1,19 +1,23 @@
 # python_101_ubuntu
+
+
 # Types of Operators
 
 * Arithmetic 
-''' +,-,*,/ '''
+``` +,-,*,/ ```
 * Comparison 
-''' <,>,<=,>= '''
+``` <,>,<=,>= ```
 * Logical    
-''' and,or,not '''
+``` and,or,not ```
 * Assignment 
-''' +=,-=,*=,/=,%= '''
+```  +=,-=,*=,/=,%= ```
 * bitwise    
-''' &,|,~,^,>>,<< '''
-## new python
+``` &,|,~,^,>>,<< ```
+
+### new python
+
 * identity   
-''' is , is not ''' 
+``` is , is not ```
 * member     
-''' in , not in '''
+``` in , not in ```
 
