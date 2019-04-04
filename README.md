@@ -34,11 +34,12 @@
 
 ``` if , if - else , if - elif - else ```
 ## if
-### statement syntax
+### Statement syntax
 ```python 
 if test expression:
     ststement(s) 
 ```
+###  statement example
 ```python
 a = 2
 if a<3:
