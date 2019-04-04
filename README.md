@@ -32,7 +32,7 @@
 
 * Decision Statements
 
-``` if , if - else , if - elif - else ```
+``` if , if - else , if - elif - else , nested if ```
 ## if
 ![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if.jpeg?raw=true)
 #### Statement syntax
@@ -101,7 +101,18 @@ else:
 ``` 
 Positive number
 ```
-
+## Nested if
+```python 
+if test_expression:
+    if test_expression:
+        statements
+    else:
+        statements
+else:
+  statements
+```
+#### Statement syntax
+#### Statement example
 * Looping Statements
 
 ``` for loop, while loop ```
