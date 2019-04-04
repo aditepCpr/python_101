@@ -39,7 +39,7 @@
 ```
 ![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if.jpeg?raw=true)
 
-Format: ![Alt text](url)
+Format: ![Alt text](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if.jpeg?raw=true)
 
 * Looping Statements
 
