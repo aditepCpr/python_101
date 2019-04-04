@@ -1,8 +1,9 @@
-a=6
-b=5
-c= True
-if a>5 and b>4:
-    print('hi')
-elif a<5 or b<6:
-    print('low')   
-print(not c) # !True = False
+a = 5
+b = 5
+
+b += a #10
+b -= a #5`
+b *= a #25
+b /= a #5.0
+b %= a #0.0
+

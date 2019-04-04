@@ -43,6 +43,17 @@ print(not c) # !True = False
 * Assignment
 
 ``` +=,-=,*=,/=,%= ```
+```python
+a = 5
+b = 5
+
+b += a #10
+b -= a #5`
+b *= a #25
+b /= a #5.0
+b %= a #0.0
+
+```
 * bitwise    
 
 ``` &,|,~,^,>>,<< ```
