@@ -33,7 +33,8 @@
 * Decision Statements
 
 ``` if , if - else , if - elif - else ```
-
+## if
+### statement syntax
 ```python 
 if test expression:
     ststement(s) 
