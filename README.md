@@ -34,10 +34,8 @@
 
 ``` if , if - else , if - elif - else ```
 
-```
-if test expression:
-    ststement(s)
-```
+```if test expression:
+    ststement(s)```
 ![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if.jpeg?raw=true)
 
 
