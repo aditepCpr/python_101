@@ -44,9 +44,9 @@ if test expression:
 ```python
 a = 2
 if a<3:
-  print (a);
+  print (a)
 if a>3:
-  print 'Hi'
+  print('hi')
 ```
 #### output
 ``` 
@@ -67,10 +67,9 @@ else:
 ```python
 x = 5
 if x<10:
-  print 'Condition is TRUE'
+  print('Condition is TRUE')
 else:
-  print 'Condition is FALSE'
-
+  print('Condition is FALSE')
 ```
 #### Output
 ```
