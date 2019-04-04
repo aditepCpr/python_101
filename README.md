@@ -19,7 +19,7 @@
 
 ``` &,|,~,^,>>,<< ```
 
-### new python
+#### new python
 
 * identity   
 
@@ -28,19 +28,19 @@
 
 ``` in , not in ```
 
-## Flow Control
+# Flow Control
 
 * Decision Statements
 
 ``` if , if - else , if - elif - else ```
 ## if
 ![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if.jpeg?raw=true)
-### Statement syntax
+#### Statement syntax
 ```python 
 if test expression:
     ststement(s) 
 ```
-### Statement example
+#### Statement example
 ```python
 a = 2
 if a<3:
@@ -48,7 +48,7 @@ if a<3:
 if a>3:
   print 'Hi'
 ```
-### output
+#### output
 ``` 
 2 
 ```
@@ -56,14 +56,14 @@ if a>3:
 
 ## if - else
 ![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if-else.png?raw=true)
-### Statement syntax
+#### Statement syntax
 ```python 
 if test_expression:
   statements
 else:
   statements
 ```
-###  Statement example
+####  Statement example
 ```python
 x = 5
 if x<10:
@@ -72,10 +72,11 @@ else:
   print 'Condition is FALSE'
 
 ```
-### Output
+#### Output
 ```
 Condition is True
 ```
+## if-elif-else
 
 * Looping Statements
 
