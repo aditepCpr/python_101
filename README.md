@@ -38,6 +38,15 @@
 if test expression:
     ststement(s) 
 ```
+```python
+a = 2
+if a<3:
+  print (a);
+if a>3:
+  print 'Hi'
+```
+### output
+``` 2 ```
     
 ![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if.jpeg?raw=true)
 
