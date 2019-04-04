@@ -57,12 +57,27 @@ if a>3:
 ## if - else
 ### Statement syntax
 ```python 
-if test expression:
-    ststement(s) 
+if test_expression:
+  statements
+else:
+  statements
 ```
 ###  Statement example
-* Looping Statements
+```python
+x = 5
+if x<10:
+  print 'Condition is TRUE'
+else:
+  print 'Condition is FALSE'
+
+```
+### Output
+```
+Condition is True
+```
 ![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if-else.png?raw=true)
+* Looping Statements
+
 ``` for loop, while loop ```
 
 * Orther
