@@ -76,7 +76,26 @@ else:
 Condition is True
 ```
 ## if-elif-else
+#### Statement syntax
+```python
+if test expression:
+    Body of if
+elif test expression :
+    Body of elif
+else:
+    Body of else
+```
+####  Statement example
+```python
+num = 3.4
 
+if num > 0:
+    print('Positive number')
+elif num == 0:
+    print('Zero')
+else:
+    print('Negative number')
+```
 * Looping Statements
 
 ``` for loop, while loop ```
