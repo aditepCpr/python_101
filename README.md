@@ -34,6 +34,7 @@
 
 ``` if , if - else , if - elif - else ```
 ## if
+![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if.jpeg?raw=true)
 ### Statement syntax
 ```python 
 if test expression:
@@ -52,9 +53,9 @@ if a>3:
 2 
 ```
     
-![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if.jpeg?raw=true)
 
 ## if - else
+![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if-else.png?raw=true)
 ### Statement syntax
 ```python 
 if test_expression:
@@ -75,7 +76,7 @@ else:
 ```
 Condition is True
 ```
-![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if-else.png?raw=true)
+
 * Looping Statements
 
 ``` for loop, while loop ```
