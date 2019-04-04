@@ -28,3 +28,16 @@
 
 ``` in , not in ```
 
+## Flow Control
+
+* Decision Statements
+
+``` if , if - else , if - elif - else ```
+
+* Looping Statements
+
+``` for loop, while loop ```
+
+* Orther
+
+``` Break , Continue , Pass ```
