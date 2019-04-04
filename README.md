@@ -76,6 +76,7 @@ else:
 Condition is True
 ```
 ## if-elif-else
+![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/Python-if-elif-else-statement.jpg?raw=true)
 #### Statement syntax
 ```python
 if test expression:
@@ -96,6 +97,8 @@ elif num == 0:
 else:
     print('Negative number')
 ```
+
+
 * Looping Statements
 
 ``` for loop, while loop ```
