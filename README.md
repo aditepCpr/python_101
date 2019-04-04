@@ -97,7 +97,10 @@ elif num == 0:
 else:
     print('Negative number')
 ```
-
+#### output
+``` 
+Positive number
+```
 
 * Looping Statements
 
