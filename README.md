@@ -5,13 +5,34 @@
 
 * Arithmetic 
 
-``` +,-,*,/ ```
+``` +,-,*,/,% ```
+```python
+a = 5
+b = 6
+print(a+b) # 11
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+
+```
 * Comparison 
 
 ``` <,>,<=,>= ```
+```python
+a=6
+b=5
+if a>5:
+    print('hi')
+elif a<5:
+    print('low')   
+```
 * Logical    
 
 ``` and,or,not ```
+```python
+
+```
 * Assignment
 
 ``` +=,-=,*=,/=,%= ```
