@@ -39,7 +39,7 @@
 if test expression:
     ststement(s) 
 ```
-###  statement example
+### Statement example
 ```python
 a = 2
 if a<3:
@@ -54,7 +54,13 @@ if a>3:
     
 ![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if.jpeg?raw=true)
 
-
+## if - else
+### Statement syntax
+```python 
+if test expression:
+    ststement(s) 
+```
+###  Statement example
 * Looping Statements
 
 ``` for loop, while loop ```
