@@ -62,7 +62,7 @@ if test expression:
 ```
 ###  Statement example
 * Looping Statements
-
+![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/if-else.png?raw=true)
 ``` for loop, while loop ```
 
 * Orther
