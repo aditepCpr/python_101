@@ -156,6 +156,7 @@ else:
 ``` for loop, while loop ```
 
 ## For loop
+![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/python_for_loop.jpg?raw=true)
 
 ```python
 # For loop
@@ -210,6 +211,7 @@ else:
     print('No item left')
 ```
 ## While Loop
+![image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/python_while_loop.jpg?raw=true)
 ### While Loop
 #### Statement syntax
 ```python
