@@ -314,3 +314,32 @@ sum = 36 :: Break
 The sum is 36
 
 ```
+## Continue
+![image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/continue.jpeg?raw=true)
+![image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/continue2.jpeg?raw=true)
+
+#### For loop continue
+
+```python
+
+for val in "hello world":
+    if val == 'o':
+        continue
+    print(val)
+print('The End')
+
+```
+#### output
+```output
+
+h
+e
+l
+l
+ 
+w
+r
+l
+d
+The End
+```
