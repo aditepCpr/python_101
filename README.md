@@ -263,3 +263,30 @@ for val in "hello world":
     print(val)
 print('The End')
 ```
+
+```python
+n = 10
+sum = 0 
+i = 1
+
+while i <= n:
+    sum += i
+    i+=1
+    print(sum)
+    if sum == 36:
+        print('sum = 36 :: Break')
+        break
+print('The sum is', sum)
+
+# 1
+# 3
+# 6
+# 10
+# 15
+# 21
+# 28
+# 36
+# sum = 36 :: Break
+# The sum is 36
+
+```
