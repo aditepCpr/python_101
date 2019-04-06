@@ -253,3 +253,13 @@ else:
 ## Break
 ![image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/r-break-flowchart.jpg?raw=true)
 ![image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/break.jpeg?raw=true)
+
+### for loop break
+```python
+## for loop break
+for val in "hello world":
+    if val == 'o':
+        break
+    print(val)
+print('The End')
+```
