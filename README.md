@@ -22,8 +22,8 @@ print(a%b)
 ```python
 a=6
 b=5
-if a>5:
-    print('hi')
+if a>5: 
+    print('hi') 
 elif a<5:
     print('low')   
 ```
@@ -150,8 +150,7 @@ if test_expression:
 else:
   statements
 ```
-#### Statement syntax
-#### Statement example
+
 # Looping Statements
 
 ``` for loop, while loop ```
@@ -200,7 +199,7 @@ for i in range(len(genre)):
 for g in genre :
     print('i like',g)
 ```
-## For loop else
+### For loop else
 ```python
 ## for loop else
 numbers = []
