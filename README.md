@@ -250,3 +250,5 @@ else:
 * Orther
 
 ``` Break , Continue , Pass ```
+## Break
+![image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/break.jpeg?raw=true)
