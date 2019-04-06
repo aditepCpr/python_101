@@ -343,3 +343,19 @@ l
 d
 The End
 ```
+## Pass
+```python
+
+sequence = ['h','i','l','o']
+for val in sequence:
+    if(val=='i') :
+        pass
+    print(val)
+```
+#### Output
+```output
+h
+i
+l
+o
+```
