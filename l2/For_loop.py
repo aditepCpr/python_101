@@ -28,4 +28,5 @@ print('end loop sum =',sum)
 # sum = 40
 # val =  11 <class 'int'>
 # sum = 51
+
 # end loop sum = 51
