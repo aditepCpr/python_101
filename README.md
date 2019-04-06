@@ -262,8 +262,15 @@ for val in "hello world":
         break
     print(val)
 print('The End')
-```
 
+```
+```output
+h
+e
+l
+l
+The End
+```
 ```python
 n = 10
 sum = 0 
