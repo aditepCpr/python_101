@@ -152,7 +152,7 @@ else:
 ```
 #### Statement syntax
 #### Statement example
-* Looping Statements
+# Looping Statements
 
 ``` for loop, while loop ```
 
