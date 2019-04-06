@@ -2,13 +2,14 @@
 # Flow Control - Looping Statements
 ## Contents
 [For loop](#For-loop)
-    - [For loop in range](#For-loop-in-range)
-    - [For loop else](#For-loop-else)
-[Flow Control](#Flow-Control)
-[Flow Control](#Flow-Control)
-[Flow Control](#Flow-Control)
-[Flow Control](#Flow-Control)
 
+[While Loop](#While-Loop)
+
+[Break](#Break)
+
+[Continue](#Continue)
+
+[Pass](#Pass)
 
 ``` for loop, while loop ```
 
