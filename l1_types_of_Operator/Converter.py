@@ -15,3 +15,8 @@ celsius = 1
 FAHRENHEIT = 9/5+32
 celToFah = celsius*FAHRENHEIT
 print(celsius,'Celsius =',celToFah,'Fahrenheit')
+
+#  Output
+# 1 Km =  0.621371192237334 M
+# 1000 kg = 2204.6226199999996 Pound
+# 1 Celsius = 33.8 Fahrenheit
