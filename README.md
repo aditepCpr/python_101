@@ -170,7 +170,7 @@ for val in numbers:
 print('end loop sum =',sum)
 
 ```
-
+### For loop in range
 ```python
 # For loop in range
 
@@ -200,7 +200,9 @@ for i in range(len(genre)):
 for g in genre :
     print('i like',g)
 ```
+## For loop else
 ```python
+## for loop else
 numbers = []
 
 for i in numbers:
