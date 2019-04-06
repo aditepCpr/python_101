@@ -264,6 +264,7 @@ for val in "hello world":
 print('The End')
 
 ```
+#### output
 ```output
 h
 e
@@ -285,15 +286,19 @@ while i <= n:
         break
 print('The sum is', sum)
 
-# 1
-# 3
-# 6
-# 10
-# 15
-# 21
-# 28
-# 36
-# sum = 36 :: Break
-# The sum is 36
+```
+#### output
+```output
+
+1
+3
+6
+10
+15
+21
+28
+36
+sum = 36 :: Break
+The sum is 36
 
 ```
