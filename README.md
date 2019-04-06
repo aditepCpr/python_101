@@ -209,6 +209,42 @@ for i in numbers:
 else:
     print('No item left')
 ```
+## While Loop
+### While Loop
+#### Statement syntax
+```python
+while test_expression :
+      Body of while
+```
+```python
+n = 10
+
+sum = 0
+i = 1
+
+while i <= n:
+    sum += i
+    i+=1
+    print(sum)
+print('The sum is', sum)
+```
+### While Loop Else
+#### Statement syntax
+```python
+while test_expression :
+      Body of while
+else:
+      statements
+```
+```python
+counter = 0
+
+while counter < 10:
+    print('No.',counter)
+    counter += 1
+else:
+    print('Done.')
+```
 * Orther
 
 ``` Break , Continue , Pass ```
