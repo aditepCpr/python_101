@@ -1,6 +1,14 @@
 # python_101
 ## Contents
 1. [Types of Operators](#Types-of-Operators)
+    - Arithmetic
+    - Comparison 
+    - Logical    
+    - Assignment
+    - Bitwise  
+    - Identity
+    - Member
+    
 2. [Flow Control](#Flow-Control)
 
 
