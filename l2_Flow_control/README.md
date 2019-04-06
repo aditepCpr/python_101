@@ -1,5 +1,6 @@
 # python_101 
 # Flow Control - Looping Statements
+` for loop, while loop `
 ## Contents
 [For loop](#For-loop)
 
@@ -11,7 +12,6 @@
 
 [Pass](#Pass)
 
-``` for loop, while loop ```
 
 ## For loop
 ![Image](https://github.com/topkoka/python_101_ubuntu/blob/master/pic/flow%20control/python_for_loop.jpg?raw=true)
