@@ -90,3 +90,19 @@ print(hello())
 print(hello('Jack'))
 print(hello(name='top'))
 ```
+   ### - Variable-length arguments
+   ```python
+   def hello(name='None',*word): # ' * ' *word = Tuple
+    """This function say hello follow by name """
+    text=''
+    for w in word :
+        text+=str(w)
+    return 'Hello,'+name+' '+text
+
+print(hello('top','How','are you')) # Hello,top Howare you
+print(hello('Tony',1,2,3)) # Hello,Tony 123
+
+# print(hello(name='top','How','are you')) #Erroe
+# n* arguments
+   
+   ```
