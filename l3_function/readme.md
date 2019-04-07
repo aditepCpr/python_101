@@ -80,3 +80,13 @@ print(hello('Jack'))
 print(hello(name='top')) # Keyword
 print(hello(name2='Jack')) #Error
    ```
+   ### Default arguments
+```python
+def hello(name='None'): #Default arguments
+    """This function say hello follow by name """
+    return 'Hello,'+name
+
+print(hello())
+print(hello('Jack'))
+print(hello(name='top'))
+```
