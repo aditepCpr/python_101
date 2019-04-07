@@ -69,3 +69,14 @@ print(hello('Jack'))
 print(hello()) #Error
    
    ```
+   ### Keyword arguments
+   ```python
+   
+def hello(name):
+    """This function say hello follow by name """
+    return 'Hello,'+name
+
+print(hello('Jack'))
+print(hello(name='top')) # Keyword
+print(hello(name2='Jack')) #Error
+   ```
