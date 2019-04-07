@@ -49,3 +49,23 @@ print(hello('Jack'))
  ```
 Hello,Jack
  ```
+ 
+ ## Function Arguments
+ 
+   - Requird arguments
+   - Keyword arguments
+   - Default arguments
+   - Variable-length arguments
+   
+   ### - Requird arguments
+   ```python
+   
+def hello(name):
+    """This function say hello follow by name """
+    return 'Hello,'+name
+    
+print(hello('Jack'))
+
+print(hello()) #Error
+   
+   ```
