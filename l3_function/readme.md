@@ -1,5 +1,5 @@
 # Python Function
-#### Syntax
+##### Syntax
 ```python
 
 def function_name(parameters):
@@ -8,11 +8,11 @@ def function_name(parameters):
         
 ```
 
-### docstring
-#### Syntax
+## docstring
+##### Syntax
         ` print(hello.__doc__) `
  
-#### EX
+##### EX
 ```python
 
 def hello(name):
@@ -23,13 +23,13 @@ print(hello.__doc__)
 hello('top')
 
  ```
- #### Output
+ ##### Output
  ```
 This function say hello follow by name 
 Hello, top
  ```
  ## Return
- #### Syntax
+ ##### Syntax
  ```python
 
 def function_name(parameters):
@@ -38,14 +38,14 @@ def function_name(parameters):
     return [expression]
 
  ```
- #### EX
+ ##### EX
  ```python
 def hello(name):
     """This function say hello follow by name """
     return 'Hello,'+name
 print(hello('Jack'))
  ```
- #### Output
+ ##### Output
  ```
 Hello,Jack
  ```
