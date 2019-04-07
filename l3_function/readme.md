@@ -1,12 +1,12 @@
 # Python Function
 ## Syntax
-    ```python
-    
+```python
+
     def function_name(parameters):
         """docstring"""
         statement(s)
         
-    ```
+```
 
 ### docstring
 
