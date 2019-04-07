@@ -5,10 +5,16 @@
     
 [Return](#Return)
     
-[Function Arguments](#Function-Arguments)
-    
+[Function Arguments](#Function-Arguments) 
+```     - Requird arguments
+        - Keyword arguments
+        - Default arguments
+        - Variable-length arguments
+```  
 [Anonymous Functions](#Anonymous-Functions)
-    
+```
+        - Lambda
+```
 [Scope](#Scope)
 ##### Syntax
 ```python
