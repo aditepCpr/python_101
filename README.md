@@ -17,3 +17,17 @@
         - Break
         - Continue
         - Pass
+3. [Python Function](https://github.com/topkoka/python_101_ubuntu/tree/master/l3_function)
+    
+    - Docstring 
+    - Return 
+    - Function Arguments 
+        - Requird arguments
+        - Keyword arguments
+        - Default arguments
+        - Variable-length arguments
+    - Anonymous Functions
+        - Lambda
+    - Scope
+        - Build-in
+        - User-Define
