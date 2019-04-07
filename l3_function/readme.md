@@ -69,7 +69,7 @@ print(hello('Jack'))
 print(hello()) #Error
    
    ```
-   ### Keyword arguments
+   ### - Keyword arguments
    ```python
    
 def hello(name):
@@ -80,7 +80,7 @@ print(hello('Jack'))
 print(hello(name='top')) # Keyword
 print(hello(name2='Jack')) #Error
    ```
-   ### Default arguments
+   ### - Default arguments
 ```python
 def hello(name='None'): #Default arguments
     """This function say hello follow by name """
