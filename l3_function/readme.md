@@ -106,3 +106,4 @@ print(hello('Tony',1,2,3)) # Hello,Tony 123
 # n* arguments
    
    ```
+   ## Anonymous Functions
