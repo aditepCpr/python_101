@@ -15,6 +15,8 @@
  - Lambda
     
 [Scope](#Scope)
+
+## Python Function
 ##### Syntax
 ```python
 
