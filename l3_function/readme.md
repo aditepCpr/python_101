@@ -2,9 +2,9 @@
 ## Syntax
 ```python
 
-    def function_name(parameters):
-        """docstring"""
-        statement(s)
+def function_name(parameters):
+    """docstring"""
+    statement(s)
         
 ```
 
