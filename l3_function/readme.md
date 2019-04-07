@@ -6,8 +6,9 @@ def function_name(parameters):
     statement(s)
 ```
 
-    * docstring
-        'print(hello.__doc__)'
+    - docstring
+
+        ` print(hello.__doc__) `
         
         ```python
             def hello(name):
