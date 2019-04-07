@@ -6,15 +6,14 @@
 [Return](#Return)
     
 [Function Arguments](#Function-Arguments) 
-```     - Requird arguments
-        - Keyword arguments
-        - Default arguments
-        - Variable-length arguments
-```  
+   - Requird arguments
+   - Keyword arguments
+   - Default arguments
+   - Variable-length arguments
+   
 [Anonymous Functions](#Anonymous-Functions)
-```
-        - Lambda
-```
+    - Lambda
+    
 [Scope](#Scope)
 ##### Syntax
 ```python
