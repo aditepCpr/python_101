@@ -1,7 +1,7 @@
 # Python Function
-` docstring ,Return , Function Arguments,  Anonymous Functions , Scope `
+` Docstring ,Return , Function Arguments,  Anonymous Functions , Scope `
 ## Contents
-[docstring](#docstring)
+[Docstring](#Docstring)
     
 [Return](#Return)
     
@@ -26,7 +26,7 @@ def function_name(parameters):
         
 ```
 
-## docstring
+## Docstring
 ##### Syntax
         ` print(hello.__doc__) `
  
@@ -158,7 +158,7 @@ print(mytripler(11))  ##33
 ## Scope
 - local
 - Global
-### - local
+### - Local
 ```python
 def foo():
     y = 'local'
@@ -203,9 +203,9 @@ foo()
 print(x)
 
 ```
-## ypes of Functions
+## Types of Functions
 - Build-in
-- user-Define
+- User-Define
 ### - Build-in Functions
 ```python
 abs() delattr() hash() memoryview() set() all() dict() help() min() setattr() any() dir() 
