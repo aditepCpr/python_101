@@ -107,3 +107,21 @@ print(hello('Tony',1,2,3)) # Hello,Tony 123
    
    ```
    ## Anonymous Functions
+   ### Lambda
+```python
+    
+    lamba arguments: expression
+    
+```
+```python
+sum = lambda n1,n2 : n1+n2
+sub = lambda n1,n2 : n1-n2
+div = lambda n1,n2 : n1/n2
+mul = lambda n1,n2 : n1*n2
+
+print(sum(20,10)) #30
+print(sub(20,10)) #10
+print(div(20,10)) #2.0
+print(mul(20,10)) #200
+
+```
