@@ -12,8 +12,7 @@
    - Variable-length arguments
    
 [Anonymous Functions](#Anonymous-Functions)
-
-    - Lambda
+ - Lambda
     
 [Scope](#Scope)
 ##### Syntax
