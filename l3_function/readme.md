@@ -22,6 +22,11 @@ print(hello.__doc__)
 hello('top')
 
  ```
+ #### Output
+ ```
+This function say hello follow by name 
+Hello, top
+ ```
  ## Return
  ```python
 
@@ -36,4 +41,8 @@ def hello(name):
     """This function say hello follow by name """
     return 'Hello,'+name
 print(hello('Jack'))
+ ```
+ #### Output
+ ```
+Hello,Jack
  ```
