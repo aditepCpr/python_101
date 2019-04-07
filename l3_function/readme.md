@@ -1,15 +1,15 @@
 # Python Function
 ` docstring ,Return , Function Arguments,  Anonymous Functions , Scope `
 ## Contents
-    [docstring](#docstring)
+[docstring](#docstring)
     
-    [Return](#Return)
+[Return](#Return)
     
-    [Function Arguments](#Function-Arguments)
+[Function Arguments](#Function-Arguments)
     
-    [Anonymous Functions](#Anonymous-Functions)
+[Anonymous Functions](#Anonymous-Functions)
     
-    [Scope](#Scope)
+[Scope](#Scope)
 ##### Syntax
 ```python
 
