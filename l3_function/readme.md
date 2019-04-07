@@ -162,3 +162,26 @@ print('x outside :',x)
 #x inside : outer
 #x outside : outer
 ```
+#### Ex
+
+```python
+x = 'Global'
+
+def foo():
+    x = x * 2  #Error x = null  :  cant *2
+    print(x)
+foo()
+```
+```python
+x = 'global'
+
+def foo():
+    global x  # x = 'global'
+    y = 'local'
+    x = x * 2
+    print(x)
+    print(y)
+foo()
+print(x)
+
+```
