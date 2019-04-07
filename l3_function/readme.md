@@ -137,3 +137,28 @@ mytripler = myfunc(3)
 print(mydoubler(11))  ##22
 print(mytripler(11))  ##33
    ```
+## Scope
+- local
+- Global
+### - local
+```python
+def foo():
+    y = 'local'
+    print(y)
+foo()  #local
+print(y) #Error
+
+```
+### - Global
+```python
+x = 'outer'
+
+def foo():
+    print('x inside :',x)
+    
+foo()
+print('x outside :',x)
+
+#x inside : outer
+#x outside : outer
+```
