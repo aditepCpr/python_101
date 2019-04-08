@@ -43,12 +43,12 @@ b = a.split(",") # returns ['Hello', ' World!'] <class 'list'>
     - Tuple()
     - Set{}
     - Dictionary{key:'value'}
-### List[]
+### [List[]](https://github.com/topkoka/python_101/blob/master/l0_Data_types/List.ipynb)
 
 ```python 
  thislist = ["apple", "banana", "cherry"]
 ```
- 
+- List[]
     - Change Item Value
     - Loop Through a List
     - List Length
