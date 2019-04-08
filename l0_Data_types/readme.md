@@ -44,7 +44,11 @@ b = a.split(",") # returns ['Hello', ' World!'] <class 'list'>
     - Set{}
     - Dictionary{key:'value'}
 ### List[]
- ```python thislist = ["apple", "banana", "cherry"] ```
+
+```python 
+ thislist = ["apple", "banana", "cherry"]
+```
+ 
     - Change Item Value
     - Loop Through a List
     - List Length
@@ -59,6 +63,7 @@ b = a.split(",") # returns ['Hello', ' World!'] <class 'list'>
     - Copy a List
         - copy() 
         - list()
+        
 ### Tuple()
 ### set{}
 ### Dictionary{k:'v'}
