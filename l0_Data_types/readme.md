@@ -1,13 +1,22 @@
 # Data Types
 # Contents
+
 [Python Numbers](#Python-Numbers)
+
 [Python Casting](#Python-Casting
+
 [Python Strings](#Python-Strings)
+
 [Python Collections](#Python-Collections)
+
     [List[]](#List)
+    
     [Tuple()](#Tuple)
+    
     [Set{}](#Set)
+    
     [Dictionary{K:'values'}](#Dictionary{k:'v'})
+    
 ## Python Numbers
     - int
     - float
