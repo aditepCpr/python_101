@@ -7,8 +7,6 @@
 
 [Python Strings](#Python-Strings)
 
-[Python Collections](#Python-Collections)
-
 [-List[]](#List)
     
 [-Tuple()](#Tuple)
