@@ -97,4 +97,44 @@ thistuple = ("apple", "banana", "cherry")
         - del
         
 ### set{}
+```python
+thisset = {"apple", "banana", "cherry"}
+```
+- Set{}
+    - Add Items
+        - add()
+        - update()
+    - Get the Length of a Set
+        - len()
+    - Remove Item
+        - remove()  
+        - discard() 
+        - pop()    
+        - clear()
+        - del
+
 ### Dictionary{}
+```python
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+```
+- Dictionary{}
+    - Accessing Items
+        - get()
+    - Change Values
+    - Loop Through a Dictionary
+        - values()
+        - items()
+    - Check if Key Exists
+    - Dictionary Length
+    - Adding Items
+    - Removing Items
+        - pop()
+        - popitem()
+        - clear()
+        - del
+    - Copy a Dictionary
+        - copy()
