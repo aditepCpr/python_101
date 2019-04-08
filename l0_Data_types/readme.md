@@ -96,7 +96,7 @@ thistuple = ("apple", "banana", "cherry")
     - Remove 
         - del
         
-### set{}
+### [set{}](https://github.com/topkoka/python_101/blob/master/l0_Data_types/Sets.ipynb)
 ```python
 thisset = {"apple", "banana", "cherry"}
 ```
@@ -113,7 +113,7 @@ thisset = {"apple", "banana", "cherry"}
         - clear()
         - del
 
-### Dictionary{}
+### [Dictionary{}](https://github.com/topkoka/python_101/blob/master/l0_Data_types/Dictionaries.ipynb)
 ```python
 thisdict =	{
   "brand": "Ford",
