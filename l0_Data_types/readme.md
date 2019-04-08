@@ -15,7 +15,7 @@
     
 [-Set{}](#Set)
     
-[-Dictionary{K:'values'}](#Dictionary{})
+[-Dictionary{}](#Dictionary)
     
 ## Python Numbers
     - int
