@@ -76,3 +76,13 @@ print(x is not y) #True
 ```
 
 ``` in , not in ```
+
+```python
+x = ["apple", "banana"]
+#in
+print("banana" in x) #True
+print("pineapple" in x) #False
+# not in
+print("banana" not in x) #True
+print("pineapple" not in x) #False
+```
