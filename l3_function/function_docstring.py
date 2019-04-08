@@ -102,7 +102,7 @@ print(hello('Tony',1,2,3)) # Hello,Tony 123
 # In[44]:
 
 
-lamba arguments: expression
+# lamba arguments: expression
 
 
 # In[52]:
