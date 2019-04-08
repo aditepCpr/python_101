@@ -46,7 +46,7 @@ b = a.split(",") # returns ['Hello', ' World!'] <class 'list'>
 ### [List[]](https://github.com/topkoka/python_101/blob/master/l0_Data_types/List.ipynb)
 
 ```python 
- thislist = ["apple", "banana", "cherry"]
+thislist = ["apple", "banana", "cherry"]
 ```
 - List[]
     - Change Item Value
@@ -64,6 +64,22 @@ b = a.split(",") # returns ['Hello', ' World!'] <class 'list'>
         - copy() 
         - list()
         
-### Tuple()
+### [Tuple()](https://github.com/topkoka/python_101/blob/master/l0_Data_types/Tuples.ipynb)
+
+```python
+thistuple = ("apple", "banana", "cherry")
+```
+- Tuple() 
+    - fixed size
+        - cannot add items
+        - cannot change values
+        - cannot remove items
+    - Loop Through a Tuple
+    - Check if Item Exists
+    - Tuple Length
+        - len()
+    - Remove 
+        - del
+        
 ### set{}
 ### Dictionary{k:'v'}
