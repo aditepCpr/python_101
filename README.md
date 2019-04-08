@@ -1,6 +1,9 @@
 # python_101
 
 ## Contents
+0. [Data Types](https://github.com/topkoka/python_101_ubuntu/tree/master/l0_Data_types)
+    -   Python Numbers
+    
 1. [Types of Operators](https://github.com/topkoka/python_101_ubuntu/tree/master/l1_types_of_Operator)
     - Arithmetic
     - Comparison 
