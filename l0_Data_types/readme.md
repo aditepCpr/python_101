@@ -3,19 +3,19 @@
 
 [Python Numbers](#Python-Numbers)
 
-[Python Casting](#Python-Casting
+[Python Casting](#Python-Casting)
 
 [Python Strings](#Python-Strings)
 
 [Python Collections](#Python-Collections)
 
-    [List[]](#List)
+[-List[]](#List)
     
-    [Tuple()](#Tuple)
+[-Tuple()](#Tuple)
     
-    [Set{}](#Set)
+[-Set{}](#Set)
     
-    [Dictionary{K:'values'}](#Dictionary{k:'v'})
+[-Dictionary{K:'values'}](#Dictionary{k:'v'})
     
 ## Python Numbers
     - int
