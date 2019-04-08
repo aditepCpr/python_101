@@ -60,6 +60,19 @@ b %= a #0.0
 * identity   
 
 ``` is , is not ```
-* member     
+compare the objects, same object,same memory location:
+```
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+
+print(x is z) #True  
+print(x is y) #False
+print(x == y) #True
+
+print(x is not z) #False
+print(x is not y) #True
+
+```
 
 ``` in , not in ```
