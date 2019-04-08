@@ -14,3 +14,12 @@ print(type(x))
 print(type(y))
 print(type(z))
 ```
+## Python Casting
+    - int()
+    - float()
+    - str() 
+```python     
+x = int(2.8)     # x will be 2
+y = float("3")   # y will be 3.0
+z = str(3.0)     # z will be '3.0'
+```
