@@ -46,9 +46,7 @@ b = a.split(",") # returns ['Hello', ' World!'] <class 'list'>
 ### [List[]](https://github.com/topkoka/python_101/blob/master/l0_Data_types/List.ipynb)
 
 ```python 
-
  thislist = ["apple", "banana", "cherry"]
- 
 ```
 - List[]
     - Change Item Value
