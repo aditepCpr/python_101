@@ -5,6 +5,11 @@
     -   Numbers
     -   Strings
     -   Casting
+    -   Collections
+        - List[]
+        - Taple()
+        - Set{}
+        - Dictionary{}
     
 1. [Types of Operators](https://github.com/topkoka/python_101_ubuntu/tree/master/l1_types_of_Operator)
     - Arithmetic
