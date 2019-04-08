@@ -37,3 +37,9 @@ print(a.lower()) #hello, world!
 print(a.upper()) #HELLO, WORLD!
 print(a.replace("H", "J")) #Jello, World!
 b = a.split(",") # returns ['Hello', ' World!'] <class 'list'>
+
+## Python Collections (Arrays)
+    - List[] 
+    - Tuple()
+    - Set{}
+    - Dictionary{key:'value'}
