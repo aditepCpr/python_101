@@ -50,8 +50,8 @@ b = a.split(",") # returns ['Hello', ' World!'] <class 'list'>
  thislist = ["apple", "banana", "cherry"]
  
 ```
-
-- Change Item Value
+- List[]
+    - Change Item Value
     - Loop Through a List
     - List Length
         - len()
