@@ -54,10 +54,12 @@ print(a.replace("H", "J")) #Jello, World!
 b = a.split(",") # returns ['Hello', ' World!'] <class 'list'>
 ```
 ## Python Collections (Arrays)
-    - List[] 
-    - Tuple()
-    - Set{}
-    - Dictionary{key:'value'}
+    * Mutable Types
+        - List[] 
+        - Dictionary{key:'value'}        
+        - Set{}
+    * Immutable
+        - Tuple()
 ### [List[]](https://github.com/topkoka/python_101/blob/master/l0_Data_types/List.ipynb)
 
 ```python 
