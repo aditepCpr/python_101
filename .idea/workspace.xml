@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="076f9c78-ee91-4fbc-9ced-1ac11120149c" name="Default Changelist" comment="update by pycharm  Python i/o" />
+=======
+    <list default="true" id="076f9c78-ee91-4fbc-9ced-1ac11120149c" name="Default Changelist" comment="update by pycharm">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +15,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/l5_io/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/l4_modules/example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/l4_modules/Modules.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> Stashed changes
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,7 +81,10 @@
         <option value="$PROJECT_DIR$/mylib/myutil/MyMath.py" />
         <option value="$PROJECT_DIR$/l4_modules/ModuleAndPackageEx/TestModule.py" />
         <option value="$PROJECT_DIR$/l5_io/README.md" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/l5_io/IO.py" />
+=======
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -43,7 +97,34 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
+<<<<<<< Updated upstream
     <panes />
+=======
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="l4_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="l5_io" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+>>>>>>> Stashed changes
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -73,6 +154,9 @@
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/l5_io" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -222,12 +306,17 @@
       <workItem from="1554831583213" duration="1109000" />
       <workItem from="1554832734082" duration="637000" />
       <workItem from="1554833617235" duration="211000" />
+<<<<<<< Updated upstream
       <workItem from="1554833839112" duration="761000" />
       <workItem from="1554810701890" duration="83000" />
       <workItem from="1554872281659" duration="183000" />
       <workItem from="1554872537318" duration="100000" />
       <workItem from="1554873041477" duration="4408000" />
       <workItem from="1554880371835" duration="224000" />
+=======
+      <workItem from="1554833839112" duration="1102000" />
+      <workItem from="1554834951693" duration="570000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="update by pycharm">
       <created>1554831699073</created>
@@ -243,23 +332,41 @@
       <option name="project" value="LOCAL" />
       <updated>1554831901286</updated>
     </task>
+<<<<<<< Updated upstream
     <task id="LOCAL-00003" summary="update by pycharm  Python i/o">
       <created>1554880436454</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1554880436454</updated>
+=======
+    <task id="LOCAL-00003" summary="update by pycharm  L5_IO readme v1">
+      <created>1554835358200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554835358200</updated>
+>>>>>>> Stashed changes
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="9782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.41601256" />
+=======
+    <option name="totallyTimeSpent" value="5695000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="1022" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19103523" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -275,15 +382,19 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Jupyter" order="11" weight="0.32902467" />
       <window_info anchor="bottom" id="Terminal" order="12" />
+<<<<<<< Updated upstream
       <window_info active="true" anchor="bottom" id="Python Console" order="13" visible="true" weight="0.31561998" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32850242" />
+=======
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.31284916" />
+>>>>>>> Stashed changes
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" x="0" y="0" width="300" height="780" id="Documentation" order="6" side_tool="true" visible="true" weight="0.32924226" />
+      <window_info anchor="right" x="0" y="0" width="300" height="780" id="Documentation" order="6" side_tool="true" visible="true" weight="0.21237993" />
       <window_info anchor="right" id="Database" order="7" />
     </layout>
   </component>
@@ -292,8 +403,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update by pycharm" />
+<<<<<<< Updated upstream
     <MESSAGE value="update by pycharm  Python i/o" />
     <option name="LAST_COMMIT_MESSAGE" value="update by pycharm  Python i/o" />
+=======
+    <MESSAGE value="update by pycharm  L5_IO readme v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update by pycharm  L5_IO readme v1" />
+>>>>>>> Stashed changes
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1554796061280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/l4_modules" />
@@ -381,18 +497,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/l4_modules/Modules.py">
+    <entry file="file://$PROJECT_DIR$/l5_io/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/l4_modules/ModuleAndPackageEx/TestModule.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="238">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+=======
+        <state>
+>>>>>>> Stashed changes
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mylib/myutil/Grade.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="340">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
@@ -409,22 +533,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+=======
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/l4_modules/Modules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/l5_io/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
+<<<<<<< Updated upstream
           <first_editor relative-caret-position="1445">
             <caret line="85" selection-start-line="85" selection-end-line="85" />
+=======
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+>>>>>>> Stashed changes
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/l5_io/IO.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+=======
+>>>>>>> Stashed changes
   </component>
   <component name="masterDetails">
     <states>
