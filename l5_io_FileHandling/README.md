@@ -33,8 +33,38 @@ close()
 ## open()
 ` open('file-path','mode')`
 
+```
+
+"r" - Read - Default value. Opens a file for reading, error if the file does not exist
+
+"a" - Append - Opens a file for appending, creates the file if it does not exist
+
+"w" - Write - Opens a file for writing, creates the file if it does not exist
+
+"x" - Create - Creates the specified file, returns an error if the file exists
+
+ binary or text mode
+
+"t" - Text - Default value. Text mode
+
+"b" - Binary - Binary mode (e.g. images)
+
+
+Create a New File
+
+"x" - Create - will create a file, returns an error if the file exist
+
+"a" - Append - will create a file if the specified file does not exist
+
+"w" - Write - will create a file if the specified file does not exist
+
+``` f = open("myfile.txt", "x") ```
+
+```
+
 ```python
 file = open('D:tmp/test/hello.txt','r')
+f = open("demofile", "rt")
 # recommended
 # '/'
 ```
@@ -83,7 +113,14 @@ write(text)
 writeline(line)
 ```
 ```  CSV , JSON , XML ```
+```python
+Write to an Existing File
 
+"a" - Append - will append to the end of the file
+
+"w" - Write - will overwrite any existing content
+
+```
 ```python
 file.write('Todat is Monday')
 file.write('Time to go school')
