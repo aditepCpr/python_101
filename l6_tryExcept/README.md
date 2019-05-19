@@ -104,3 +104,43 @@ def temp_convert(var):
 temp_convert("xyz")
 
 ```
+
+## Raising an Exceptions
+
+#### Syntax
+```python
+raise  [Exception [, args[, traceback]]]
+```
+```python
+
+def functionName(level):
+    if level < 1:
+        raise ("Invalid level!" ,level)
+
+functionName(0)
+```
+##### output
+```python
+
+    raise ("Invalid level!" ,level)
+TypeError: exceptions must derive from BaseException
+
+Process finished with exit code 1
+```
+
+## User-Definde Exception
+```python
+class Networkkerror(RuntimeError):
+    def __init__(self,arg):
+        self.args = arg
+
+try:
+    raise Networkkerror("Bad hostname")
+except Networkkerror as e:
+    print(e.args)
+```
+
+## Assertion
+```python
+assert Exception[,Argument]
+```
