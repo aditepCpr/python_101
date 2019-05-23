@@ -41,3 +41,11 @@ else:
     print("No match!!")
 
 ```
+
+#### Search & Replace
+
+##### syntax
+```python
+
+re.sub(pattern.repl,string ,max=0)
+```

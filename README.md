@@ -42,4 +42,23 @@
         - Build-in
         - User-Define
 4. [Modules](https://github.com/topkoka/python_101/tree/master/l4_modules)
+
+    
 5. [I/O](https://github.com/topkoka/python_101/tree/master/l5_io)
+    
+    - print , input
+    - Read write file
+    
+6. [Exception](https://github.com/topkoka/python_101/tree/master/l6_tryExcept)
+    
+    - Try-Except-Else
+    - Try-Finally
+    - Argument of Exception
+    - Raising an Exceptions
+    - User-Definde Exception
+    - Assertion
+    
+7. [regular](https://github.com/topkoka/python_101/tree/master/l7_regular)
+
+    - match()
+    - search()
