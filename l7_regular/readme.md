@@ -31,12 +31,17 @@ else:
 re.search (patrerr, string, flags=0)
 ```
 ```python
-search0bj = re.search(r'(.*) are (.*?) .*', line, re.M|re.I)
+import re
+#input ข้อความ
+line = "Cats are smarter than dogs"
 
-if search0bj:
-    print("match0j.grouo() :", search0bj.group())
-    print("match0bj.group(1) :", search0bj.group(1))
-    print("match0bj.group(2) :", search0bj.group(2))
+# match ข้อความที่มี are ตรงกลาง และ เริ่มต้นด้วย r
+match0bj = re.match(r'(.*) are (.*?) .*', line, re.M|re.I)
+
+if match0bj:
+    print("match0j.grouo() :", match0bj.group()) #เอามาโชว์ทั้งหมด
+    print("match0bj.group(1) :", match0bj.group(1)) # โชว์แค่ กลุ่ม 1 'Cats'
+    print("match0bj.group(2) :", match0bj.group(2)) # โชว์แค่ กลุ่ม 2 'smarter' 
 else:
     print("No match!!")
 
