@@ -8,8 +8,9 @@ except :
     .........................
 else:
     if there is no Exception, then execute this block.
+```
 
-```# Python Function
+# Python Function
 ` Docstring ,Return , Function Arguments,  Anonymous Functions , Scope `
 ## Contents
 [Docstring](#Docstring)
@@ -30,7 +31,6 @@ else:
 ## Python Function
 ##### Syntax
 ```python
-
 def function_name(parameters):
     """docstring"""
     statement(s)
