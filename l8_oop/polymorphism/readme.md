@@ -1,5 +1,9 @@
+# Polymorphism
+``` 
+ Polymorphism =  Inheritance + Encapsulation
+```
+```python
 import l8_oop.Class.polymorphism.Carpoly as poly
-
 # Polymorphic arguments
 def info(Car):
     Car.info()
@@ -8,3 +12,5 @@ def info(Car):
 crv = poly.CRV('red')
 
 info(crv)
+
+```
