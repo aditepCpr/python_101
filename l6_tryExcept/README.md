@@ -1,6 +1,17 @@
 # Handling
 
 # try-Except-Else
+```python
+
+try:
+    you do your operation here;
+    ..........................
+except :
+    if there is any Exception, then execute this block.
+    .........................
+else:
+    if there is no Exception, then execute this block.
+```
 #### Syntax   try-Except-Else
 ```python
 

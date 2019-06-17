@@ -1,15 +1,3 @@
-```python
-
-try:
-    you do your operation here;
-    ..........................
-except :
-    if there is any Exception, then execute this block.
-    .........................
-else:
-    if there is no Exception, then execute this block.
-```
-
 # Python Function
 ` Docstring ,Return , Function Arguments,  Anonymous Functions , Scope `
 ## Contents
