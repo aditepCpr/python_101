@@ -27,7 +27,7 @@ class Employee:
         self.ageForEachEmployee()
         self.ageOfEmploy()
         self.totalVacation()
-
+    # อายุ
     def ageForEachEmployee(self):
         dt = datetime.today()
         afEmp = dt.strptime(self.dob, '%d-%b-%Y')
@@ -36,13 +36,14 @@ class Employee:
 
         print('Age :', int(afEmpyear), 'year')
 
-
+    # วันที่ทำงานทั้งหมด
     def dayWork(self):
         dt = datetime.today()
         aoEmp = dt.strptime(self.startWork, '%d-%b-%Y')
         dayWork = (dt - aoEmp).days
         return dayWork
 
+    # คำนวณอายุการทำงาน
     def ageOfEmploy(self):
         dayWork = self.dayWork()
         aoEmptyear = dayWork / 365
@@ -61,7 +62,7 @@ class Employee:
             pass
 
 
-
+    # คำนวณวันลา
     def totalVacation(self):
         workyear = self.dayWork() / 365
         #print(workyear)
