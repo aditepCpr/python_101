@@ -4,12 +4,14 @@ from datetime import datetime
 from datetime import timedelta
 
 ###   Get Current Date
+print("Get Current Date")
 print(date.today())
 print(datetime.now()) # แนะนำให่้ใช้ datetime ไปเลย
 print(datetime.today())
 print("*"*30)
 
 ### Get Spacific Date & time
+print("Get Spacific Date & time")
 print(date(2019,5,5))
 print(time())
 print(time(12,20,20))
@@ -19,10 +21,12 @@ print(datetime(2019,5,9,12,20,20,234566))
 print("*"*30)
 
 ### Get Date from Timestamp
+print("Get Date from Timestamp")
 print(date.fromtimestamp(1561001111))
 print("*"*30)
 
 ### Get each filed of date & time
+print('Get each filed of date & time')
 dt = datetime(2019,5,9,12,20,20,234566)
 print(dt.year)
 print(dt.month)
@@ -84,3 +88,4 @@ else:
     print((newYear-td).days)
 
 print((td-newYear).total_seconds())
+
