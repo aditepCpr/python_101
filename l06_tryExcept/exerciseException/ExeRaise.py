@@ -1,4 +1,4 @@
-from l6_tryExcept.exerciseException.Myexception.myexception import MyMathException, MyMathError
+from l06_tryExcept.exerciseException.Myexception.myexception import MyMathException, MyMathError
 
 
 def div(a1, a2):

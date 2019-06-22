@@ -6,7 +6,7 @@ passRE = r'^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?:.{8,})$'
 
 try:
     # เปิดไฟล์
-    file = open('/home/aditep/softwares/python/l5_io_FileHandling/io_Exercise/student','r')
+    file = open('/home/aditep/softwares/python/l05_io_FileHandling/io_Exercise/student','r')
     allStds = file.readlines()
     for s in allStds:
         name = s.strip().split(",")[1]

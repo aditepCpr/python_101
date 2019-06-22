@@ -1,4 +1,4 @@
-from l9_datetime.lab.Employee import  *
+from l09_datetime.lab.Employee import  *
 
 emp1 = Employee('E-01','Aditep Campira','1-MAR-1995','1-DEC-2018')
 emp1.info()

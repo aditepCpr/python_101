@@ -1,7 +1,7 @@
-from l4_modules.example import  add
-from l4_modules.example import *
+from l04_modules.example import  add
+from l04_modules.example import *
 import sys
-import l4_modules.example as ex
+import l04_modules.example as ex
 
 
 print(add(1, 2))

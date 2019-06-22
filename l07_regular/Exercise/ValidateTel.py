@@ -5,7 +5,7 @@ telRE = r'^08\d-\d{3}-\d{4}$'
 
 try:
     # เปิดไฟล์
-    file = open('/home/aditep/softwares/python/l5_io_FileHandling/io_Exercise/student','r')
+    file = open('/home/aditep/softwares/python/l05_io_FileHandling/io_Exercise/student','r')
     allStds = file.readlines()
     for s in allStds:
         name = s.strip().split(",")[1]
