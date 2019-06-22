@@ -1,7 +1,7 @@
 # python_101
 
 ## Contents
-0. [Data Types](https://github.com/topkoka/python_101_ubuntu/tree/master/l0_Data_types)
+0. [Data Types](https://github.com/topkoka/python_101_ubuntu/tree/master/l00_Data_types)
     -   Numbers
     -   Strings
     -   Casting
@@ -11,7 +11,7 @@
         - Set{}
         - Dictionary{}
     
-1. [Types of Operators](https://github.com/topkoka/python_101_ubuntu/tree/master/l1_types_of_Operator)
+1. [Types of Operators](https://github.com/topkoka/python_101_ubuntu/tree/master/l01_types_of_Operator)
     - Arithmetic
     - Comparison 
     - Logical    
@@ -20,14 +20,14 @@
     - Identity
     - Member
     
-2. [Flow Control](https://github.com/topkoka/python_101_ubuntu/tree/master/l2_Flow_control)
+2. [Flow Control](https://github.com/topkoka/python_101_ubuntu/tree/master/l02_Flow_control)
 
     - For loop
     - While Loop
         - Break
         - Continue
         - Pass
-3. [Python Function](https://github.com/topkoka/python_101_ubuntu/tree/master/l3_function)
+3. [Python Function](https://github.com/topkoka/python_101_ubuntu/tree/master/l03_function)
     
     - Docstring 
     - Return 
@@ -41,15 +41,15 @@
     - Scope
         - Build-in
         - User-Define
-4. [Modules](https://github.com/topkoka/python_101/tree/master/l4_modules)
+4. [Modules](https://github.com/topkoka/python_101/tree/master/l04_modules)
 
     
-5. [I/O](https://github.com/topkoka/python_101/tree/master/l5_io)
+5. [I/O](https://github.com/topkoka/python_101/tree/master/l05_io)
     
     - print , input
     - Read write file
     
-6. [Exception](https://github.com/topkoka/python_101/tree/master/l6_tryExcept)
+6. [Exception](https://github.com/topkoka/python_101/tree/master/l06_tryExcept)
     
     - Try-Except-Else
     - Try-Finally
@@ -58,7 +58,7 @@
     - User-Definde Exception
     - Assertion
     
-7. [regular](https://github.com/topkoka/python_101/tree/master/l7_regular)
+7. [regular](https://github.com/topkoka/python_101/tree/master/l07_regular)
 
     - match()
     - search()
