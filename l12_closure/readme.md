@@ -36,8 +36,4 @@ def myprint(msg):
 - Avoid the use of global values
 - Date hiding
 - Object oriented solution 
-```
-```python
 
-
-```
