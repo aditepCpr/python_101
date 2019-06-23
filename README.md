@@ -79,24 +79,24 @@
     - datetime
     - timedelta
     
-10.[Iterator](https://github.com/topkoka/python_101/tree/master/l10_Iterator)
+10. [Iterator](https://github.com/topkoka/python_101/tree/master/l10_Iterator)
     
-11.[Generator](https://github.com/topkoka/python_101/tree/master/l11_generator)
+11. [Generator](https://github.com/topkoka/python_101/tree/master/l11_generator)
     
     - yirld
     
-12.[Closure](https://github.com/topkoka/python_101/tree/master/l12_closure)
+12. [Closure](https://github.com/topkoka/python_101/tree/master/l12_closure)
 
     - Nested function
     - Non-Local variable
     
-13.[Decorator](https://github.com/topkoka/python_101/tree/master/l13_decorator)
+13. [Decorator](https://github.com/topkoka/python_101/tree/master/l13_decorator)
 
     - Decorate pattern
     - Pie ( @ )
     - Decorator With Parameters
     
-14.[GUI](https://github.com/topkoka/python_101/tree/master/l14_GUI)
+14. [GUI](https://github.com/topkoka/python_101/tree/master/l14_GUI)
 
     - tkinter
         - Entry
@@ -107,7 +107,7 @@
         - Menu Buttom
         - Canvas
         
-15.[Json](https://github.com/topkoka/python_101/tree/master/l15_json)
+15. [Json](https://github.com/topkoka/python_101/tree/master/l15_json)
     
     - JsonEncoder
     - JsonDecoder
