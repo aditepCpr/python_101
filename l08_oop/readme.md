@@ -10,7 +10,7 @@
 - Abstraction # Flexible
 
 
-# Class 
+## Class 
 
 ```
 มีคุณสมบัติอะไรบ้าง 
