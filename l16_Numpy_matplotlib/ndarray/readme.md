@@ -1,0 +1,246 @@
+# ndarray
+
+การสร้าง array สร้างขึ้นมาจากลิสต์, ทูเพิล หรือเรนจ์ โดยใช้ np.array(ลิสต์)
+
+
+```python
+aray = np.array(range(3,7))
+araya = np.array([[1,2],[3,4]])
+print(aray)
+print(araya)
+
+# output 
+
+[3 4 5 6]
+[[1 2]
+ [3 4]]
+
+```
+```
+ออาเรย์มีแอตทริบิวต์ติดตัวที่สามารถให้ข้อมูลของตัวอาเรย์นั้น เช่น 
+shape	รูปร่างของอาเรย์
+size	จำนวนสมาชิกในอาเรย์
+ndim	จำนวนมิติของอาเรย์
+
+```
+```python
+print(aray.shape) # ได้ (4,)
+print(aray.size) # ได้ 4
+print(aray.ndim) # ได้ 1
+print(araya.shape) # ได้ (2, 2)
+print(araya.size) # ได้ 4
+print(araya.ndim) # ได้ 2
+
+# อีกวิธี
+print(np.size(araya))
+print(np.shape(araya))
+print(np.ndim(araya))
+
+```
+
+## ชนิดของข้อมูลในอาเรย์
+
+``` 
+- สามารถตรวจสอบชนิดของข้อมูลในอาเรย์ได้โดยดูที่แอตทริบิวต์ชื่อ dtype  
+- สร้างอาเรย์จะต้องมีจำนวนสมาชิกในลิสต์ย่อยแต่ละลิสต์เท่ากันไม่เช่นนั้นจะถูกตีความเป็นออบเจ็กต์ทั่วไป
+```
+```python
+
+araye = np.array([[[1,2],[3,4]],[[5,6],[7,8]]])
+arayu = np.array([[1,2],[3,4,5]])
+print(araye.dtype) # ได้ int64  int64 นี้บอกถึงขนาดของหน่วยความจำเป็นบิต # int8 int16 int32 
+print(arayu.dtype) # ได้ object
+
+```
+
+int8 int16 int32  นี้บอกถึงขนาดของหน่วยความจำเป็นบิต 
+```python
+
+ari = np.array([1,2,3,4],dtype='int16')
+ariy = np.array([1,2,3,4],dtype='float32')
+print(ariy) # ได้ [ 1.  2.  3.  4.]
+
+# มีทศนิยมแม้แต่ตัวเดียวทั้งหมดก็จะกลายเป็น float64 ทันที
+arey = np.array([1,2,3.14,4])
+print(arey) # ได้ [ 1.    2.    3.14  4.  ]
+print(arey.dtype) # ได้ float64
+
+```
+
+U  = ยูนิโค้ด 32 = หน่วยความจำที่ใช้
+
+```python
+# string
+arayo = np.array([[1,2],[3.,'4']])
+print(arayo)
+print(arayo.dtype) # <U32
+
+# output
+
+[['1' '2']
+ ['3.0' '4']]
+ <U32
+
+```
+
+กำหนดความยาวอักขระ
+```python
+
+print(np.array([[123456789]],dtype='<U5')) # ได้ [['12345']]
+
+```
+## ชนิตของ array ทั้งหมด
+``` 
+print(np.sctypes)
+
+# output
+
+{'int': [<class 'numpy.int8'>, <class 'numpy.int16'>, <class 'numpy.int32'>, <class 'numpy.int64'>], 
+'uint': [<class 'numpy.uint8'>, <class 'numpy.uint16'>, <class 'numpy.uint32'>, <class 'numpy.uint64'>], 
+'others': [<class 'bool'>, <class 'object'>, <class 'str'>, <class 'str'>, <class 'numpy.void'>],
+ 'float': [<class 'numpy.float16'>, <class 'numpy.float32'>, <class 'numpy.float64'>, <class 'numpy.float128'>],
+ 'complex': [<class 'numpy.complex64'>, <class 'numpy.complex128'>, <class 'numpy.complex256'>]}
+ 
+```
+## เปลี่ยน type ด้วย astype
+```python
+x = np.array([3.5,4.7,9,11.3,15])
+print(x) # ได้ [  3.5   4.7   9.   11.3  15. ]
+print(x.astype(int)) # ได้ [ 3  4  9 11 15]
+print(x.astype(str)) # ได้ ['3.5' '4.7' '9.0' '11.3' '15.0']
+
+```
+## การอ้างอิงถึงข้อมูลในอาเรย์
+` [1,:] กับ [1][:] และ [:][1] ให้ผลเหมือนกัน แต่ [:,1] เท่านั้นที่จะให้ผลต่าง `
+```python
+
+ariyu = np.array([[1,2,3],[4,5,6]])
+print(ariyu[0][1]) # ได้ 2
+print(ariyu[1][2]) # ได้ 6
+
+#ใช้ [0,0]  "," ปกติ list ทำไม่ได้
+
+print(ariyu[0,2]) # ได้ 3
+print(ariyu[1,1]) # ได้ 5
+
+# การเข้าถึงสมาชิคที่ละตัว 
+
+print(ariyu[1][:]) # ได้ [4 5 6]
+print(ariyu[1,:]) # ได้ [4 5 6]
+
+# เข้าถึงข้อมูลแนมตั้ง 
+
+print(ariyu[:,1]) # ได้ [2 5]
+print(ariyu[:][1]) # ได้ [4 5 6]]
+
+# array 1 D
+aroi = np.array([13,14,15,16,17,18,19])
+print(aroi[:3]) # ได้ [13 14 15]
+print(aroi[3:5]) # ได้ [16 17]
+print(aroi[5:]) # ได้ [18 19]
+
+# เลขติดลบก็แสดงถึงสมาชิกที่ไล่จากท้าย โดย -1 คือสมาชิกตัวท้ายสุด
+
+print(aroi[-1]) # ได้ 19
+print(aroi[-3:-1]) # ได้ [17 18]
+print(aroi[5:-1]) # ได้ [18]
+
+# กำหนดระยะเว้นช่วง [::-1]
+
+print(aroi[1:4:2]) # ได้ [14 16]
+print(aroi[1::2]) # ได้ [14 16 18]
+print(aroi[:6:2]) # ได้ [13 15 17]
+print(aroi[::2]) # ได้ [13 15 17 19]
+print(aroi[::-1]) # ได้ [19 18 17 16 15 14 13]
+```
+
+## arrray 2D
+` np.array([แนวนอน],[แนวตั้ง])`
+```python
+aroy = np.array([[13,14,15,16],
+
+                [17,18,19,20],
+
+                [21,22,23,24]])
+
+print(aroy[1:2,:]) # [[17 18 19 20]]
+print(aroy[:,2:3])
+
+# [[15]
+#  [19]
+#  [23]]
+
+print(aroy[1:2,2:3]) # ได้ [[19]]  # [1:2] แนวนอน  [2:3] แนวตั้ง    ทับกันเท่ากับ 19
+
+print(aroy[0:2,1:3])# ได้
+
+# [[14 15]
+#  [18 19]]
+
+
+print(aroy[0,1:3]) # ได้ [14 15]
+print(aroy[::2,2]) # ได้ [15 23]
+print(aroy[::-1,::-1]) # ได้
+
+# [[24 23 22 21]
+#  [20 19 18 17]
+#  [16 15 14 13]]
+
+```
+## การเขียนทับข้อมูลในอาเรย์
+
+```python
+
+aruy = np.array([[2,2,2],[2,2,2],[2,2,2]])
+print(aruy)
+aruy[1,1] = 3
+print(aruy)
+
+## แก้ที่ละหลายๆ ตัว
+aruy[1,:] = 4
+print(aruy)
+aruy[:,2] = 5
+print(aruy)
+aruy[:,:] = 6
+print(aruy)
+
+# output
+[[2 2 2]
+ [4 4 4]
+ [2 2 2]]
+[[2 2 5]
+ [4 4 5]
+ [2 2 5]]
+[[6 6 6]
+ [6 6 6]
+ [6 6 6]]
+
+```
+## การกระจายค่า (broadcast) 
+` [:,:] คือการแทนที่ทุกตัว `
+
+```python
+aruy[:,:] = np.array([7,8,9]) # หรือจะใช้ในรูปลิสต์ aruy[:,:] = [7,8,9] ก็ได้
+print(aruy)
+
+[[7 8 9]
+ [7 8 9]
+ [7 8 9]]
+
+```
+
+## การสร้างอาเรย์ด้วยฟังก์ชัน
+```
+ในที่นี้ขอแนะนำฟังก์ชันที่ใช้บ่อย ได้แก่
+np.arange	สร้างอาเรย์หนึ่งมิติที่มีเลขเรียงกัน
+np.linspace	สร้างอาเรย์หนึ่งมิติตามจำนวนที่กำหนดโดยเว้นช่วงเท่าๆกัน
+np.ones	สร้างอาเรย์ที่มีแต่เลข 1 ตามขนาดที่กำหนด
+np.zeros	สร้างอาเรย์ที่มีแต่เลข 0 ตามขนาดที่กำหนด
+np.full	สร้างอาเรย์ที่มีแต่เลขอะไรก็ได้เลขเดียวตามที่กำหนด โดยมีขนาดตามที่กำหนด
+np.empty	สร้างอาเรย์เปล่าๆ ตามขนาดที่กำหนด
+np.identity	สร้างอาเรย์ที่เป็นเมทริกซ์เอกลักษณ์ (เมทริกซ์สองมิติที่มีค่าเป็น 1 เมื่อพิกัดแนวตั้งและนอนเท่ากัน นอกนั้นเป็น 0)
+np.eye	เหมือนกับ np.identity แต่ขนาดแนวตั้งและนอนไม่ต้องเท่ากันก็ได้
+
+
+```
+https://phyblas.hinaboshi.com/numa02
